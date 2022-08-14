@@ -1,0 +1,21 @@
+html, body{
+    width: 0;
+}
+
+.table {
+    display:table;
+    width:100px;
+    text-align: center;
+}
+.row {
+    display:table-row;
+}
+.cell {
+    display:table-cell;
+    border:1px solid grey;
+}
+.caption {
+    display:table-caption;
+    caption-side:bottom;
+    border:1px solid grey;
+}
